@@ -96,6 +96,7 @@
     "webpack:test": "yarn run test",
     "webpack-dev-server": "node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js",
-    "test": "yarn run lint && yarn test:start -- --browsers Chrome"
+    "test": "yarn run lint && yarn test:start -- --browsers Chrome",
+    "test:start": "karma start src/test/javascript/karma.conf.js"
   }
 }

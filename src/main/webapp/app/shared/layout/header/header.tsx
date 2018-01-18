@@ -7,9 +7,8 @@ import {
   UncontrolledNavDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
 import {
-  FaHome, FaThList, FaUserPlus, FaUser, FaFlag, FaHeart,
-  FaList, FaTasks, FaDashboard, FaBook, FaWrench, FaSignIn, FaSignOut,
-  FaClockO, FaHddO, FaAsterisk
+  FaHome, FaUser, FaFlag,
+  FaSignIn, FaSignOut
 } from 'react-icons/lib/fa';
 import { NavLink as Link } from 'react-router-dom';
 import LoadingBar from 'react-redux-loading-bar';
